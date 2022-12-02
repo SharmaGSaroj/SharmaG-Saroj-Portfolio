@@ -1,0 +1,19 @@
+{
+    "Mini-App": {
+        "name": "Mini-Cooper App",
+        "id": "mini",
+        "lbBG": "",
+        "biopic": "mini-project.jpg",
+        "bio": " Mini-app is a Project made using VueJS, SASS and Php. User can get details about their favourite Mini-Cooper Car",
+        "full-info":"The Project is to help students to show info about Vuejs and how it get connect to database and live showing database info using php. At the end of the project it help me to get great idea about vuejs and it function how it is great tool for frontend developer."
+        
+    },
+    "The Realm": {
+        "name": "The Realm",
+        "id": "agency",
+        "lbBG": "",
+        "biopic": "",
+        "bio": ""
+    }
+   
+  }

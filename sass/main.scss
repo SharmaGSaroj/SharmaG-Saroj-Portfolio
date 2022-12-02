@@ -1,4 +1,14 @@
-
-
 @import "./modules/default.scss";
+
+
+//header section//
 @import "./modules/header.scss";
+//Different Pages//
+@import"./modules/firstpage.scss";
+@import"./modules/about.scss";
+@import"./modules/lightbox.scss";
+@import"./modules/contact.scss";
+//Pages end//
+
+//footer section//
+@import "./modules/footer.scss";

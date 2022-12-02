@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <h1 class="hidden">Portfolio</h1>
+    <header class="header">
+      <nav class="navbar">
+        <h2 class="hidden">Navigation</h2>
+        <a href="#" class="nav-logo"
+          ><img src="images/logo-black.png" alt="" srcset=""
+        /></a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="protfolio.html" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <main id="app">
+      <section class="project-tab">
+        <div class="projects-tab">
+         <ul class="tabs">
+
+         </ul>
+          </li>
+        </div>
+
+      </section>
+
+      <section class="Project-sample">
+        <h2 class="Project-heading">Work's To Look</h2>
+        <p class="project-content">
+          Have a great time looking on to the projects and ideas
+        </p>
+        <theproject
+          @loadlbdata="loadLightbox"
+          v-for="hero in heroData"
+          :hero="hero"
+        >
+        </theproject>
+      </section>
+      <thelightbox
+        @closelightbox="this.showLB = false"
+        v-if="showLB"
+        :hero="lbData"
+      ></thelightbox>
+      <section class="cta">
+        <div class="contact">
+          <div class="contact-content">
+            <h2 class="contact-heading">Let's Talk</h2>
+            <p class="contact-text">
+              Let's work together to Build the Project with New technologies
+            </p>
+            <p class="contact-btn">
+              <a href="contact.html"> Contact Me</a>
+            </p>
+          </div>
+          <div class="cta-image">
+            <img src="images/ctaimage.png" alt="" />
+          </div>
+        </div>
+      </section>
+      </section>
+      <thefooter></thefooter>
+    </main>
+
+    <!--scripts starts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://unpkg.com/vue-router@4"></script>
+    <script src="js/main.js" type="module" defer></script>
+
+    <!--scripts ends -->
+  </body>
+</html>

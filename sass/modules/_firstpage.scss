@@ -1,0 +1,800 @@
+
+//---------------------------------//
+        //Start of Hero section// 
+//---------------------------------//
+
+
+
+.herocontent{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 4rem 1rem;
+    flex-direction: row;
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 90vh;
+
+}
+.herotext{
+    position: relative;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    min-width: 0;
+    max-width: 615px;
+    width: 100%;
+    margin: 2rem;
+    color: #2c292A;
+   
+}
+.hero-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+    font-size: 2.5rem;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    text-align: left;
+    display: block;
+    position: relative;
+    min-width: 0;
+    color: #a4a4a4;
+    margin-bottom: 3rem;
+
+    
+}
+.green{
+color: #09964d;
+    }
+
+
+.role{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    text-align: left;
+    display: block;
+    position: relative;
+    min-width: 0;
+    color: black;
+}
+.herotext-info{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400; 
+    font-size: 1.55rem;
+    line-height: 2.5rem;
+    max-width: 500px;
+    text-align: justify;
+}
+.heroimage{
+    position: relative;
+    max-width: 400px;
+    margin: 2rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    
+    
+}
+.heroimage img{
+   width: 400px;
+}
+
+@media only screen and (max-width: 768px) {
+    .herocontent{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 4rem 1rem;
+        position: relative;
+        width: 90%;
+        margin-left: 1rem;
+        min-height: 90vh;
+        margin-top: -3rem;    
+    
+    }
+    .hero-heading{
+        
+        font-weight: 600;
+        word-wrap: break-word;
+        font-size: 2rem;
+        letter-spacing: 0.7rem;
+        text-transform: uppercase;
+        text-align: left;
+        display: block;
+        position: relative;
+        min-width: 0;
+        color: #909090;
+        margin-bottom: 1rem
+    }
+    .green{
+        color: #09964d;
+        }
+    
+        .role{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            max-width: 500px;
+        }
+    .heroimage{
+        margin-top: -20px;
+    }
+ 
+    .heroimage img{
+       width: 300px;
+    }
+    .herotext-info{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    max-width: 500px;
+    text-align: justify;
+    }
+
+}
+
+//---------------------------------//
+        //End of Hero section// 
+//---------------------------------//
+
+
+
+
+//---------------------------------//
+        //Start of Intro section// 
+//---------------------------------//
+
+
+.about-short{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 4rem 1rem;
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: space-around;    
+    border-radius: 23px;
+    background: #ffffff;
+    box-shadow:  7px 7px 23px #dbdbdb,
+             -7px -7px 23px #ffffff;
+    max-height: 90vh;
+}
+.shortabout-image img{
+    width: 300px;
+    border-radius: 50%;
+    
+}
+.shortabout-image{
+
+  position: relative;
+    margin: 2rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+   
+    
+}
+.Name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    text-align: left;
+    display: block;
+    position: relative;
+    min-width: 0;
+    color: black;
+    
+}
+
+.shortdetails p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+    max-width: 500px;
+    color: #2c292A;
+    text-align: justify;
+  
+}
+.shortinfo-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1.5rem;
+    position: relative;
+   
+}
+         
+.knowMore a{
+    background-color:#09964d;
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    border-color: none;
+    display: block;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+  
+  }
+
+  .knowMore a:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+.CV a{
+        background-color: #09964d;
+        margin: 10px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white; 
+        border-color: none;           
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+        cursor: pointer;
+        font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+      }
+
+      .CV a:hover {
+      
+        color: #fff;
+        text-decoration: none;
+      }
+  
+@media only screen and (max-width: 768px) {
+  
+    .shortabout-image img{
+       display: none;
+        
+    }
+   .shortabout-info{
+    margin-left: -2rem;
+   }
+    .Name {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        word-wrap: break-word;
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+        text-transform: uppercase;
+        text-align: left;
+        display: block;
+        position: relative;
+        min-width: 0;
+        color: black;
+        margin-bottom: 10px;
+    }
+    .shortdetails p{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 2rem;
+        max-width: 500px;
+        color: #2c292A;
+    }
+    .shortinfo-btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 1.5rem;
+        align-content: center;
+        margin-left: -2rem;
+       
+    }
+             
+    .knowMore a{
+        background-color: #09964d;
+        margin: 5px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 100% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+        cursor: pointer;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 0.75rem;
+      
+      }
+    
+      .knowMore a:hover {
+        
+        color: #fff;
+        text-decoration: none;
+      }
+    
+    .CV a{ 
+        background-color: #09964d;
+        margin: 5px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 100% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+        cursor: pointer;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 0.7rem;
+    }
+    
+   
+}
+//---------------------------------//
+    //End of short intro section// 
+//---------------------------------//
+
+
+
+//---------------------------------
+        // Start of cta section// 
+//---------------------------------//
+.Project-sample {
+    margin-top: 64px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: space-around;    
+    border-radius: 23px;
+    background: #ffffff;
+    margin-bottom: 5rem;
+}
+
+.Project-heading{
+    margin: 64px;
+    align-items: center;
+    text-align: center;font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    text-transform: uppercase;
+    display: block;
+    position: relative;
+    min-width: 0;
+    color: #6b6b6b;
+
+    
+
+
+}
+
+.feature-project{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 4rem 1rem;
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    margin:5rem;
+    align-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: space-around;    
+    border-radius: 23px;
+    background: #ffffff;
+    box-shadow:  7px 7px 23px #dbdbdb,
+             -7px -7px 23px #ffffff;
+ 
+}
+.feature-image img{
+    width: 200px;
+    
+    
+}
+.feature-image
+{
+
+  position: relative;
+    margin: 2rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+   
+    
+}
+.feature-Name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    text-align: left;
+    display: block;
+    position: relative;
+    min-width: 0;
+    color: black;
+}
+.feature-shortdetail{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+    max-width: 500px;
+    color: #2c292A;
+    
+}
+.project-content{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem; 
+    margin-bottom: 3rem;
+}
+         
+.Project-btn {
+    background-color:#09964d;
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 150% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    border-color: none;
+    display: block;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    
+  
+  }
+
+  .Project-btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .Project-Page{
+    margin-top: 32px;
+    align-items: center;
+    text-align: center;font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    text-transform: uppercase;
+    display: block;
+    position: relative;
+    min-width: 0;
+    color: #000000;
+   
+  }
+
+
+
+      @media only screen and (max-width: 768px){
+        
+        .feature-project{
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            padding: 4rem 1rem;
+            position: relative;
+            width: 90%;
+            max-width: 1200px;
+            margin: 2rem auto;
+            align-content: center;
+            -webkit-box-align: center;
+            align-items: center;
+            justify-content: space-around;    
+            border-radius: 23px;
+            background: #ffffff;
+            box-shadow:  7px 7px 23px #dbdbdb,-7px -7px 23px #ffffff;
+            max-height: 80vh;
+    
+         
+        }       
+        
+    .Project-heading{
+            margin: 40px;
+            align-items: center;
+            text-align: center;font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            display: block;
+            position: relative;
+            min-width: 0;
+            color: #6b6b6b;
+        }
+    
+
+        .feature-image img{
+            width: 150px;
+
+        }
+        .feature-image
+        {
+        
+          position: relative;
+            margin: 2rem;
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            align-content: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            flex-direction: row-reverse;
+            flex-wrap: nowrap;
+           
+            
+        }
+        .feature-Name {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            word-wrap: break-word;
+            font-size: 1rem;
+            text-transform: uppercase;
+            text-align: center;
+            display: block;
+            position: relative;
+            min-width: 0;
+            color: black;
+            line-height: 1.5rem;
+        }
+        .feature-shortdetail{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 0.9rem;
+            line-height: 1.5rem;
+            max-width: 500px;
+            color: #2c292A;
+            align-items: center;
+            text-align: justify;
+            margin-bottom: 5px;
+        }
+        .Projectinfo-btn{
+            margin-top: 10px;
+        }
+        
+                 
+        .Project-btn{
+            background-color: #09964d;
+            margin: 10px;
+            padding: 10px 40px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 90% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            cursor: pointer;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 0.8rem;
+            justify-content: center;
+            position: relative;
+            margin: auto;
+          
+          }
+        
+          .knowMore:hover {
+            
+            color: #fff;
+            text-decoration: none;
+          }
+        
+          .Project-Page{
+            margin-top: 32px;
+            align-items: center;
+            text-align: center;font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: 1em;
+            text-transform: uppercase;
+            display: block;
+            position: relative;
+            min-width: 0;
+            color: #000000;
+           
+          }     
+      }
+
+//---------------------------------//
+        //End of Project section// 
+//---------------------------------//
+
+
+
+//---------------------------------//
+    //Start of Contact section// 
+//---------------------------------//
+.cta {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: space-around;    
+    border-radius: 23px;
+    background: #ffffff;
+    max-height: 90vh;
+    background: #ffffff;
+    box-shadow:  7px 7px 23px #dbdbdb,-7px -7px 23px #ffffff;
+    max-height: 90vh;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+   
+}
+.contact{
+    display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.contact-heading{
+  
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    display: block;
+    position: relative;
+    min-width: 0;
+    color: #000000;
+}
+.contact-text{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    max-width: 468px;
+    font-size: 1.2rem;
+    position: relative;
+    padding: 3rem 2rem;
+    text-align: center;
+    margin: auto;
+}
+.contact-btn a{
+    background-color:#09964d;
+    width: fit-content;
+    align-items: center;
+    padding: 10px 40px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 50% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    position: relative;
+    margin: auto;
+    margin-bottom: 32px;
+    
+  
+  }
+
+  .contact-btn a:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  .cta-image{
+    position: relative;
+    max-width: 300px;
+    margin: 2rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.cta-image img{
+        width: 300px;
+  
+}
+
+
+
+@media only screen and (max-width: 768px){
+    
+    .contact-heading{
+  
+        align-items: center;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 2rem;
+        display: block;
+        position: relative;
+        min-width: 0;
+        margin-top: 3rem;
+        color: #000000;
+    }
+    .contact{
+        display: flex;
+       flex-direction: row;
+       flex-wrap: nowrap;
+       justify-content: space-evenly;
+       align-items: center;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+    }
+    .cta-image img{
+        display: none;
+  
+}
+    
+}
+
+
+
+
+

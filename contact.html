@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <h1 class="hidden">Contact</h1>
+    <header class="header">
+      <nav class="navbar">
+        <h2 class="hidden">Navigation</h2>
+        <a href="index.html" class="nav-logo"
+          ><img src="images/logo-black.png" alt="" srcset=""
+        /></a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="portfolio.html" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <section class="contact-top">
+      <p class="question">GOT A QUESTION?</p>
+      <p class="mail-header">Let's talk</p>
+
+      <p id="con">
+        Here to help and answer any question you might have. <br />
+        I am looking forward to hear from you
+      </p>
+    </section>
+    <div>
+    <form action="includes/send.php" method="POST" id="mail-form">
+      <div>
+        <span class="info info-success" ref="info-success-box">
+          <!-- A success message will be displayed here after the form response. -->
+        </span>
+        <span class="info info-error" ref="info-error-box">
+          <!-- An error message will be displayed here after the form response. -->
+        </span>
+      </div>
+      <label for="firstname">First Name</label>
+      <input
+        ref="firstname"
+        type="text"
+        id="firstname"
+        name="firstname"
+        required="required"
+      />
+
+      <label for="lastname">Last Name</label>
+      <input
+        ref="lastname"
+        type="text"
+        id="lastname"
+        name="lastname"
+        required
+      />
+
+      <label for="firstname">Email</label>
+      <input ref="email" type="email" id="email" name="email" required />
+
+      <label for="message">Your Message</label>
+      <textarea
+        ref="message"
+        name="message"
+        id="message"
+        cols="30"
+        rows="10"
+      ></textarea>
+
+      <div class="wrapper" id="myBtn">
+        <input
+          @click.prevent="processMail"
+          type="submit"
+          class="submit"
+          value="Submit"
+          ref="btn-submit-contact"
+        />
+      </div>
+    </form>
+    
+
+    <footer>
+      <div class="footerhead">
+        <div class="footeremail">
+          <ul class="footermenu">
+            <li class="footeritem">
+              <a class="link" href="mailto:sarojsharma5462@gmail.com"
+                >sarojsharma5462@gmail.com</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footernav">
+          <ul class="footermenu">
+            <li class="footeritem">
+              <a href="index.html" class="link">Home</a>
+            </li>
+            <li class="footeritem">
+              <a href="portfolio.html" class="link">Portfolio</a>
+            </li>
+            <li class="footeritem">
+              <a href="about.html" class="link">About</a>
+            </li>
+            <li class="footeritem">
+              <a href="contact.html" class="link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="social">
+          <ul class="footermenu">
+            <li class="footeritem">
+              <a href="#" class="link">GitHub</a>
+            </li>
+            <li class="footeritem">
+              <a href="#" class="link">Facebook</a>
+            </li>
+            <li class="footeritem">
+              <a href="#" class="link">Twitter</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="secondfooter">
+        2022 &copy;<a class="link" href="http://">SarojSharma</a> All Right
+        Reserved
+      </p>
+    </footer>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="js/contact.js" type="module" defer></script>
+  </body>
+</html>

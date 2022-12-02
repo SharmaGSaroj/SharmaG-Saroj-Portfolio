@@ -1,0 +1,135 @@
+form{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 4rem 1rem;
+    position: relative;
+    width: 90%;
+    max-width: 1150px;
+    margin: 0 auto;
+    align-content: left;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: space-around;    
+    border-radius: 23px;
+    background: #ffffff;
+    box-shadow:  7px 7px 23px #c7c5c5,
+             -7px -7px 23px #e8e8e8;
+    max-height: 90vh;
+    margin-bottom: 5rem;
+    column-gap: 10px;
+ 
+}
+
+.mail-header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    position: relative;
+    min-width: 0;
+    color: #a4a4a4;
+    
+}
+.contact-top{
+   margin-top:3rem;
+   margin-bottom: 5rem;
+}
+.question
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+    font-size: 0.75rem;
+ 
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    position: relative;
+    min-width: 0;
+    color: #0c7528;
+    margin-bottom: 1.5rem;
+    
+}
+#con{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem; 
+    margin-top: 1.5rem;
+}
+label { 
+    font-family: 'Montserrat', sanss-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    max-width: 1150px;
+    color: #166e0d;
+    text-align: left;
+    
+    
+}
+
+input[type=text], input[type=email], input[type=tel], textarea {
+    width: 50%;
+    padding: 12px 24px;
+    border: 0;
+    border-bottom: 1px solid #040404;
+    background: white;
+    font-weight: 500;
+    font-size: 16px;
+    color: #6b7280;
+    outline: none;
+    resize: none;
+    align-items: left;
+}
+
+
+input[type=submit] {
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 14px 32px;
+    border: none;
+    font-weight: 600;
+    background-color:#09964d;
+    color: white;
+    cursor: pointer;
+
+  }
+ 
+
+
+.wrapper {
+    position: relative;
+    margin-top: 35px;
+    align-items: center;
+    i { 
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 60px;
+        font-size: 1.5em;
+        
+    }
+}
+
+textarea { resize: none; display: block; }
+
+
+
+.info.info-error {
+    display: none;
+}
+
+.info.info-success {
+    display: none;
+}
+.error {
+    border-color: red !important;
+}
