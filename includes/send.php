@@ -36,12 +36,12 @@ if ($_POST) {
         array_push($fail, "message");
     }
 
-    $headers = "From: i_am_awesome@awesome.com" . "\r\n" .
-    "Reply-To: jump_off_a_bridge@example.com" . "\r\n" .
+    $headers = "From: $visitor_email" . "\r\n" .
+    "Reply-To: Again an email from the person ". "\r\n" .
     "X-Mailer: PHP/" . phpversion();
     
     if (count($fail)==0) {
-        mail($recipient, $subject, $message, $headers);
+        mail($recipient, $subject, $message, $visitor_email);
         $results['message'] = sprintf('Thank you for contacting us, %s. You will get a reply within 24 hours', $visitor_name);
     } else {
         header('HTTP/1.1 488 You Did NOT fill out the form correctly');

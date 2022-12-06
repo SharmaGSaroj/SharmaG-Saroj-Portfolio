@@ -24,8 +24,6 @@
 .herotext{
     position: relative;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     flex-direction: column;
     min-width: 0;
     max-width: 615px;
@@ -175,11 +173,8 @@ color: #09964d;
     -webkit-box-align: center;
     align-items: center;
     justify-content: space-around;    
-    border-radius: 23px;
-    background: #ffffff;
-    box-shadow:  7px 7px 23px #dbdbdb,
-             -7px -7px 23px #ffffff;
     max-height: 90vh;
+    flex-direction: column;
 }
 .shortabout-image img{
     width: 300px;
@@ -189,7 +184,7 @@ color: #09964d;
 .shortabout-image{
 
   position: relative;
-    margin: 2rem;
+   
     display: flex;
     -webkit-box-align: center;
     align-items: center;
@@ -211,6 +206,7 @@ color: #09964d;
     position: relative;
     min-width: 0;
     color: black;
+    margin-top: 2rem;
     
 }
 
@@ -292,7 +288,7 @@ color: #09964d;
         
     }
    .shortabout-info{
-    margin-left: -2rem;
+
    }
     .Name {
         font-family: 'Montserrat', sans-serif;
@@ -528,7 +524,7 @@ color: #09964d;
         .feature-project{
             display: flex;
             flex-wrap: nowrap;
-            flex-direction: column;
+            flex-direction: column-reverse;
             padding: 4rem 1rem;
             position: relative;
             width: 90%;
@@ -577,6 +573,7 @@ color: #09964d;
             justify-content: center;
             flex-direction: row-reverse;
             flex-wrap: nowrap;
+            margin-top: -2rem;
            
             
         }

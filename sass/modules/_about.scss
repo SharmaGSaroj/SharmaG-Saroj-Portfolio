@@ -116,6 +116,22 @@ ul.services-1 li{
     color: #9f9f9f;
    
 }
+.demo-reel{
+    padding: 4rem 1rem;
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: space-around; 
+}
+.demo-reel video{
+    width: 100%;
+    
+    
+  }
 
 @media only screen and (max-width: 768px){
     .intro-content{
@@ -137,5 +153,10 @@ ul.services-1 li{
     .skills-images img{
         width: 90px;
     }
+  
+  .demo-reel video{
+    width: 100%;
+    height: auto;
+  }
 }
 
